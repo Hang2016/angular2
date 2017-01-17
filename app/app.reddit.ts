@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RedditArticle } from './app.reddit-article';
 @Component({
   selector: 'reddit',
   template: `
@@ -16,6 +17,10 @@ import { Component } from '@angular/core';
 				Submit Link
 			</button>
 		</form>
+		<div class="ui grid posts">
+			<reddit-article>
+			</reddit-article>
+		</div>
   `,
 })
 export class RedditApp  { 
