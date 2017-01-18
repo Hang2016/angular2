@@ -12,4 +12,5 @@ import { RedditApp } from './app.reddit';
 export class AppComponent  { 
   name = 'Hang'; 
   names = [ 'xiao' , 'sb', 'hang' ,'chen'];
+
 }
